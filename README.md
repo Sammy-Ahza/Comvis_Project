@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ## Train
 
 ```bash
-python -m src.train --data_root "/home/semi/Vscode/Rawdata Comvis" --output_dir "/home/semi/Vscode/Comvis/models" --epochs 10 --batch_size 32 --device cpu
+python -m src.train --data_root "PATH" --output_dir "OUTPUT PATH" --epochs 10 --batch_size 32 --device cpu
 ```
 
 ## Run App
